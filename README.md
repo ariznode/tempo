@@ -33,9 +33,13 @@ tempo --version
 Make sure to see
 
 Tempo Version: 0.7.5
+
 Commit SHA: d1c2d656fb657e3c6f46a8bc3889bdb595d45576
+
 Build Timestamp: 2025-12-15T16:14:58.647380962Z
+
 Build Features: asm_keccak,default,jemalloc,otlp
+
 Build Profile: maxperf
 
 #### Install Rust
