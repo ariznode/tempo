@@ -67,3 +67,23 @@ tempo --version
 export RUST_HTTP_TIMEOUT=600
 tempo download
 ```
+
+#### Run Node
+
+Run Inside Screen
+
+```sh
+screen -S tempo
+```
+
+Run command
+
+```sh
+tempo node \
+  --follow \
+  --http \
+  --http.addr 0.0.0.0 \
+  --http.port 8545 \
+  --http.api eth,net,web3,txpool,trace
+```
+
