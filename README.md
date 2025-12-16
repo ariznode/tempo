@@ -87,6 +87,8 @@ tempo node \
   --http.api eth,net,web3,txpool,trace
 ```
 
+Your own rpc is http://VPS_IP:8545
+
 ### Key command
 
 Stop Node
