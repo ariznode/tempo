@@ -87,3 +87,29 @@ tempo node \
   --http.api eth,net,web3,txpool,trace
 ```
 
+### Key command
+
+Stop Node
+
+```sh
+ctrl + z
+```
+
+Detach screen
+
+```sh
+ctrl a + d
+```
+
+Monitor logs
+```sh
+screen -d -r tempo
+```
+
+Kill Screen
+```sh
+screen -XS tempo quit
+```
+
+
+
